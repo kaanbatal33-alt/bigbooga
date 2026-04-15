@@ -1,11 +1,11 @@
 -- BIG BOOGA DIG | YÜKSEKLİK AYARLI AUTO-FARM
-local SellPos = Vector3.new(-95, 6, 59) -- Y (Yükseklik) 6 yapıldı (Satışı algılaması için)
+local SellPos = Vector3.new(-95, 12, 59) -- Y (Yükseklik) 6 yapıldı (Satışı algılaması için)
 local DigPos = Vector3.new(-63, 6, 92)  -- Y (Yükseklik) 6 yapıldı (Kumda takılmaması için)
 
 -- AYARLAR
-local KazmaSuresi = 30 -- 30 saniye kazış
-local SatisSuresi = 4  -- Satış alanında bekleme süresi (1 saniye artırıldı garanti olsun)
-local TiklamaHizi = 0.1 
+local KazmaSuresi = 100 -- 30 saniye kazış
+local SatisSuresi = 10  -- Satış alanında bekleme süresi (1 saniye artırıldı garanti olsun)
+local TiklamaHizi = 0.5     
 
 local Player = game.Players.LocalPlayer
 local HRP = Player.Character:WaitForChild("HumanoidRootPart")
